@@ -25,15 +25,27 @@
 
 
     declare const enum RemoteButton {
-    Power = 0x0,
-    Up = 0x5,
-    Left = 0x8,
-    Right = 0xA,
-    Down = 0xD,
-    OK = 0x9,
-    Plus = 0x4,
-    Minus = 0xC,
-    Back = 0x6,
+    A = 0x45,
+    B = 0x46,
+    C = 0x47,
+    D = 0x44,
+    E = 0x43,
+    F = 0xd,
+    UP = 0x40,
+    DOWN= 0x19,
+    LEFT = 0x7,
+    RIGHT = 0x9,
+    STOP = 0x15,
+    NUM0 = 0x16,
+    NUM1 = 0xc,
+    NUM2 = 0x18,
+    NUM3 = 0x5e,
+    NUM4 = 0x8,
+    NUM5 = 0x1c,
+    NUM6 = 0x5a,
+    NUM7 = 0x42,
+    NUM8 = 0x52,
+    NUM9 = 0x4A,
     }
 declare namespace IR {
 }

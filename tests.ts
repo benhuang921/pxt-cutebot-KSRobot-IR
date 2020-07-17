@@ -1,14 +1,3 @@
-
-# Cute:bot Car Package
-
-![](/image.png/)
-
-This library is designed to drive Cutebot, You can get Cutebot here.
-
-https://www.elecfreaks.com/store/cute-bot.html
-## Code Example
-```JavaScript
-
 let strip: neopixel.Strip = null
 basic.showLeds(`
     . . . # .
@@ -31,11 +20,3 @@ basic.forever(function () {
     basic.pause(100)
     strip.show()
 })
-
-```
-## Supported targets
-for PXT/microbit
-
-## License
-MIT
-
